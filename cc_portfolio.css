@@ -25,4 +25,44 @@ html {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  font-size: 62.5%;
+  color: rgba(0, 0, 0, 0);
 }
+
+.navbar {
+    position: relative;
+    z-index: 1000;
+    min-height: 50px;
+    margin-bottom: 24px;
+    border: 1px solid transparent;
+}
+    
+.navbar-inverse {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-color: rgba(0, 0, 0, 0.6);
+}
+    
+.navbar-fixed-top {
+    z-index: 1030;
+    top: 0;
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.navbar-toggle {
+    display: none;
+}
+
+.navbar-brand {
+    float: left;
+    padding: 13px 15px;
+    font-size: 19px;
+    line-height: 24px;
+    color: white;
+}
+
